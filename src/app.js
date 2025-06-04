@@ -34,6 +34,7 @@ function askUser() {
       terminal.close();
     } else {
       console.log(`Bulls: ${bulls}, Cows: ${cows}`);
+
       askUser();
     }
   });
